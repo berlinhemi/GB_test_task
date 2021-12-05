@@ -12,11 +12,12 @@ namespace ArrayMultiplication
         
         static void Main(string[] args)
         {
-            int[] a = new int[] { -1, 1 };
-            int[] b = new int[] { 2, 1 };
-            int[] res = Multiplicator.Multiply(a, b);
-            res.ToList().ForEach(i => Console.Write(i.ToString() + " "));
+            //int[] a = new int[] { -1, 1 };
+            //int[] b = new int[] { 2, 1 };
+            //int[] res = Multiplicator.Multiply(a, b);
             
+
+            Tests.RunAllTests();
         }
     }
 }

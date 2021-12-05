@@ -15,6 +15,11 @@ namespace ArrayMultiplication
             {
                 throw new Exception("Array(s) can't be empty.");
             }
+            //Нет необходимости показывать, что члены с более высокими показателями степенями имеют нулевые коэффициенты.
+            if (a[a.Length-1] == 0 || b[b.Length-1] == 0)
+            {
+                throw new Exception("Array(s) must not contain zeros at the end.");
+            }
             int[] result = new int[a.Length + b.Length - 1];
             for (int i = 0; i < a.Length; i++)
             {
