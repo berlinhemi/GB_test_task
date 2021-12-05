@@ -15,8 +15,6 @@ namespace ArrayMultiplication
             //int[] a = new int[] { -1, 1 };
             //int[] b = new int[] { 2, 1 };
             //int[] res = Multiplicator.MultiplyArrays(a, b);
-
-
             Tests.RunAllTests();
         }
     }
