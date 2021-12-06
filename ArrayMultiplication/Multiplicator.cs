@@ -36,7 +36,7 @@ namespace ArrayMultiplication
         private static int[] RemoveTrailingZeros(int[] array)
         {
             int realLength = GetRealArrayLength(array);
-            if(realLength != array.Length)
+            if(realLength < array.Length)
             {
                 int[] reduced = new int[realLength];
                 for(int i=0; i< realLength; i++)
